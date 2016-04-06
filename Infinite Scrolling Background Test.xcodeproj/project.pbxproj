@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D32C63081CB5D11200C9627E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C63071CB5D11200C9627E /* AppDelegate.swift */; };
+		D32C630A1CB5D11200C9627E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D32C63091CB5D11200C9627E /* GameScene.sks */; };
+		D32C630C1CB5D11200C9627E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C630B1CB5D11200C9627E /* GameScene.swift */; };
+		D32C630E1CB5D11200C9627E /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C630D1CB5D11200C9627E /* GameViewController.swift */; };
+		D32C63111CB5D11200C9627E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32C630F1CB5D11200C9627E /* Main.storyboard */; };
+		D32C63131CB5D11200C9627E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D32C63121CB5D11200C9627E /* Assets.xcassets */; };
+		D32C63161CB5D11200C9627E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D32C63141CB5D11200C9627E /* LaunchScreen.storyboard */; };
+		D32C63211CB5D11200C9627E /* Infinite_Scrolling_Background_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C63201CB5D11200C9627E /* Infinite_Scrolling_Background_TestTests.swift */; };
+		D32C632C1CB5D11200C9627E /* Infinite_Scrolling_Background_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C632B1CB5D11200C9627E /* Infinite_Scrolling_Background_TestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D32C631D1CB5D11200C9627E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32C62FC1CB5D11200C9627E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32C63031CB5D11200C9627E;
+			remoteInfo = "Infinite Scrolling Background Test";
+		};
+		D32C63281CB5D11200C9627E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D32C62FC1CB5D11200C9627E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D32C63031CB5D11200C9627E;
+			remoteInfo = "Infinite Scrolling Background Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D32C63041CB5D11200C9627E /* Infinite Scrolling Background Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Infinite Scrolling Background Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32C63071CB5D11200C9627E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D32C63091CB5D11200C9627E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		D32C630B1CB5D11200C9627E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D32C630D1CB5D11200C9627E /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		D32C63101CB5D11200C9627E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D32C63121CB5D11200C9627E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D32C63151CB5D11200C9627E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D32C63171CB5D11200C9627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32C631C1CB5D11200C9627E /* Infinite Scrolling Background TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Infinite Scrolling Background TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32C63201CB5D11200C9627E /* Infinite_Scrolling_Background_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infinite_Scrolling_Background_TestTests.swift; sourceTree = "<group>"; };
+		D32C63221CB5D11200C9627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D32C63271CB5D11200C9627E /* Infinite Scrolling Background TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Infinite Scrolling Background TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D32C632B1CB5D11200C9627E /* Infinite_Scrolling_Background_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Infinite_Scrolling_Background_TestUITests.swift; sourceTree = "<group>"; };
+		D32C632D1CB5D11200C9627E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D32C63011CB5D11200C9627E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C63191CB5D11200C9627E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C63241CB5D11200C9627E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D32C62FB1CB5D11200C9627E = {
+			isa = PBXGroup;
+			children = (
+				D32C63061CB5D11200C9627E /* Infinite Scrolling Background Test */,
+				D32C631F1CB5D11200C9627E /* Infinite Scrolling Background TestTests */,
+				D32C632A1CB5D11200C9627E /* Infinite Scrolling Background TestUITests */,
+				D32C63051CB5D11200C9627E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D32C63051CB5D11200C9627E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D32C63041CB5D11200C9627E /* Infinite Scrolling Background Test.app */,
+				D32C631C1CB5D11200C9627E /* Infinite Scrolling Background TestTests.xctest */,
+				D32C63271CB5D11200C9627E /* Infinite Scrolling Background TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D32C63061CB5D11200C9627E /* Infinite Scrolling Background Test */ = {
+			isa = PBXGroup;
+			children = (
+				D32C63071CB5D11200C9627E /* AppDelegate.swift */,
+				D32C63091CB5D11200C9627E /* GameScene.sks */,
+				D32C630B1CB5D11200C9627E /* GameScene.swift */,
+				D32C630D1CB5D11200C9627E /* GameViewController.swift */,
+				D32C630F1CB5D11200C9627E /* Main.storyboard */,
+				D32C63121CB5D11200C9627E /* Assets.xcassets */,
+				D32C63141CB5D11200C9627E /* LaunchScreen.storyboard */,
+				D32C63171CB5D11200C9627E /* Info.plist */,
+			);
+			path = "Infinite Scrolling Background Test";
+			sourceTree = "<group>";
+		};
+		D32C631F1CB5D11200C9627E /* Infinite Scrolling Background TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				D32C63201CB5D11200C9627E /* Infinite_Scrolling_Background_TestTests.swift */,
+				D32C63221CB5D11200C9627E /* Info.plist */,
+			);
+			path = "Infinite Scrolling Background TestTests";
+			sourceTree = "<group>";
+		};
+		D32C632A1CB5D11200C9627E /* Infinite Scrolling Background TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D32C632B1CB5D11200C9627E /* Infinite_Scrolling_Background_TestUITests.swift */,
+				D32C632D1CB5D11200C9627E /* Info.plist */,
+			);
+			path = "Infinite Scrolling Background TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D32C63031CB5D11200C9627E /* Infinite Scrolling Background Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32C63301CB5D11200C9627E /* Build configuration list for PBXNativeTarget "Infinite Scrolling Background Test" */;
+			buildPhases = (
+				D32C63001CB5D11200C9627E /* Sources */,
+				D32C63011CB5D11200C9627E /* Frameworks */,
+				D32C63021CB5D11200C9627E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Infinite Scrolling Background Test";
+			productName = "Infinite Scrolling Background Test";
+			productReference = D32C63041CB5D11200C9627E /* Infinite Scrolling Background Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D32C631B1CB5D11200C9627E /* Infinite Scrolling Background TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32C63331CB5D11200C9627E /* Build configuration list for PBXNativeTarget "Infinite Scrolling Background TestTests" */;
+			buildPhases = (
+				D32C63181CB5D11200C9627E /* Sources */,
+				D32C63191CB5D11200C9627E /* Frameworks */,
+				D32C631A1CB5D11200C9627E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32C631E1CB5D11200C9627E /* PBXTargetDependency */,
+			);
+			name = "Infinite Scrolling Background TestTests";
+			productName = "Infinite Scrolling Background TestTests";
+			productReference = D32C631C1CB5D11200C9627E /* Infinite Scrolling Background TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D32C63261CB5D11200C9627E /* Infinite Scrolling Background TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D32C63361CB5D11200C9627E /* Build configuration list for PBXNativeTarget "Infinite Scrolling Background TestUITests" */;
+			buildPhases = (
+				D32C63231CB5D11200C9627E /* Sources */,
+				D32C63241CB5D11200C9627E /* Frameworks */,
+				D32C63251CB5D11200C9627E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D32C63291CB5D11200C9627E /* PBXTargetDependency */,
+			);
+			name = "Infinite Scrolling Background TestUITests";
+			productName = "Infinite Scrolling Background TestUITests";
+			productReference = D32C63271CB5D11200C9627E /* Infinite Scrolling Background TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D32C62FC1CB5D11200C9627E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = codebluapps;
+				TargetAttributes = {
+					D32C63031CB5D11200C9627E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					D32C631B1CB5D11200C9627E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D32C63031CB5D11200C9627E;
+					};
+					D32C63261CB5D11200C9627E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = D32C63031CB5D11200C9627E;
+					};
+				};
+			};
+			buildConfigurationList = D32C62FF1CB5D11200C9627E /* Build configuration list for PBXProject "Infinite Scrolling Background Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D32C62FB1CB5D11200C9627E;
+			productRefGroup = D32C63051CB5D11200C9627E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D32C63031CB5D11200C9627E /* Infinite Scrolling Background Test */,
+				D32C631B1CB5D11200C9627E /* Infinite Scrolling Background TestTests */,
+				D32C63261CB5D11200C9627E /* Infinite Scrolling Background TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D32C63021CB5D11200C9627E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32C630A1CB5D11200C9627E /* GameScene.sks in Resources */,
+				D32C63161CB5D11200C9627E /* LaunchScreen.storyboard in Resources */,
+				D32C63131CB5D11200C9627E /* Assets.xcassets in Resources */,
+				D32C63111CB5D11200C9627E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C631A1CB5D11200C9627E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C63251CB5D11200C9627E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D32C63001CB5D11200C9627E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32C630C1CB5D11200C9627E /* GameScene.swift in Sources */,
+				D32C630E1CB5D11200C9627E /* GameViewController.swift in Sources */,
+				D32C63081CB5D11200C9627E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C63181CB5D11200C9627E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32C63211CB5D11200C9627E /* Infinite_Scrolling_Background_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D32C63231CB5D11200C9627E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D32C632C1CB5D11200C9627E /* Infinite_Scrolling_Background_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D32C631E1CB5D11200C9627E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32C63031CB5D11200C9627E /* Infinite Scrolling Background Test */;
+			targetProxy = D32C631D1CB5D11200C9627E /* PBXContainerItemProxy */;
+		};
+		D32C63291CB5D11200C9627E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D32C63031CB5D11200C9627E /* Infinite Scrolling Background Test */;
+			targetProxy = D32C63281CB5D11200C9627E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D32C630F1CB5D11200C9627E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32C63101CB5D11200C9627E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D32C63141CB5D11200C9627E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D32C63151CB5D11200C9627E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D32C632E1CB5D11200C9627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D32C632F1CB5D11200C9627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D32C63311CB5D11200C9627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Infinite Scrolling Background Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Infinite-Scrolling-Background-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D32C63321CB5D11200C9627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Infinite Scrolling Background Test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Infinite-Scrolling-Background-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D32C63341CB5D11200C9627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Infinite Scrolling Background TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Infinite-Scrolling-Background-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infinite Scrolling Background Test.app/Infinite Scrolling Background Test";
+			};
+			name = Debug;
+		};
+		D32C63351CB5D11200C9627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Infinite Scrolling Background TestTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Infinite-Scrolling-Background-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Infinite Scrolling Background Test.app/Infinite Scrolling Background Test";
+			};
+			name = Release;
+		};
+		D32C63371CB5D11200C9627E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Infinite Scrolling Background TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Infinite-Scrolling-Background-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Infinite Scrolling Background Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D32C63381CB5D11200C9627E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Infinite Scrolling Background TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codebluapps.Infinite-Scrolling-Background-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Infinite Scrolling Background Test";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D32C62FF1CB5D11200C9627E /* Build configuration list for PBXProject "Infinite Scrolling Background Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32C632E1CB5D11200C9627E /* Debug */,
+				D32C632F1CB5D11200C9627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D32C63301CB5D11200C9627E /* Build configuration list for PBXNativeTarget "Infinite Scrolling Background Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32C63311CB5D11200C9627E /* Debug */,
+				D32C63321CB5D11200C9627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D32C63331CB5D11200C9627E /* Build configuration list for PBXNativeTarget "Infinite Scrolling Background TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32C63341CB5D11200C9627E /* Debug */,
+				D32C63351CB5D11200C9627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D32C63361CB5D11200C9627E /* Build configuration list for PBXNativeTarget "Infinite Scrolling Background TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D32C63371CB5D11200C9627E /* Debug */,
+				D32C63381CB5D11200C9627E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D32C62FC1CB5D11200C9627E /* Project object */;
+}
