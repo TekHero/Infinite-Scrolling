@@ -9,37 +9,46 @@
 import SpriteKit
 
 class GameScene: SKScene {
+    
+    let backgroundImg = SKSpriteNode(imageNamed: "SpaceBackground3")
+    let backgroundImg2 = SKSpriteNode(imageNamed: "SpaceBackground3")
+    let backgroundImg3 = SKSpriteNode(imageNamed: "SpaceBackground3")
+    let backgroundImg4 = SKSpriteNode(imageNamed: "SpaceBackground3")
+    
+    let backgroundVelocity: CGFloat = 7.0
+    
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!"
-        myLabel.fontSize = 45
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
+        self.backgroundColor = SKColor.whiteColor()
+        self.initializingScrollingBackground()
         
-        self.addChild(myLabel)
-    }
-    
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-       /* Called when a touch begins */
-        
-        for touch in touches {
-            let location = touch.locationInNode(self)
-            
-            let sprite = SKSpriteNode(imageNamed:"Spaceship")
-            
-            sprite.xScale = 0.5
-            sprite.yScale = 0.5
-            sprite.position = location
-            
-            let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-            
-            sprite.runAction(SKAction.repeatActionForever(action))
-            
-            self.addChild(sprite)
-        }
     }
    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
+        self.moveBackground()
+    }
+    
+    func initializingScrollingBackground() {
+        for var index = 0; index < 3; ++index {
+            let bg = SKSpriteNode(imageNamed: "SpaceBackground3")
+            bg.position = CGPoint(x: 0, y: index * Int(bg.size.width))
+            bg.anchorPoint = CGPointZero
+            bg.name = "background"
+            self.addChild(bg)
+        }
+    }
+    
+    func moveBackground() {
+        self.enumerateChildNodesWithName("background", usingBlock: { (node, stop) -> Void in
+            if let bg = node as? SKSpriteNode {
+                bg.position = CGPoint(x: bg.position.x, y: bg.position.y - self.backgroundVelocity)
+                
+                // Checks if bg node is completely scrolled off the screen, if yes, then puts it at the end of the other node.
+                if bg.position.y <= -bg.size.height {
+                    bg.position = CGPointMake(bg.position.x , bg.position.y + bg.size.height * 2)
+                }
+            }
+        })
     }
 }
